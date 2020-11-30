@@ -1,5 +1,7 @@
 import React from "react"
 
+const styles = { color: `purple`, backgroundColor: "red" }
+
 export default function Home() {
-  return <div>Hello world!</div>
+  return <div style={styles}>Hello Gatsby!</div>
 }
