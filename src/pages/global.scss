@@ -1,8 +1,7 @@
-@use 'src\theme\_theme.scss';
-
+@import 'src/theme/theme';
 * {
   font-family: "Quicksand";
   scroll-behavior: smooth;
-  background-color: red;
-  color: #ddeded;
+  background-color: $primary_color;
+  color: $text_color;
 }
