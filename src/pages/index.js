@@ -1,6 +1,6 @@
 import React from "react";
 
-import './global.css';
+import './global.scss';
 import Header from '../components/header';
 import Intro from '../components/intro';
 

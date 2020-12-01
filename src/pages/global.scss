@@ -1,6 +1,8 @@
+@use 'theme/theme';
+
 * {
   font-family: "Quicksand";
   scroll-behavior: smooth;
-  background-color: #001111;
+  background-color: theme.$primary_color;
   color: #ddeded;
 }
