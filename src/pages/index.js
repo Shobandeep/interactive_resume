@@ -10,10 +10,10 @@ import Footer from '../components/footer/footer';
 export default function Home() {
   return (
     <React.Fragment>
-      
+
         <Header />
         <Intro />
-        <Intro />
+        <About />
 
         <Footer />
 
