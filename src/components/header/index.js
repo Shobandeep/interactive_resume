@@ -3,7 +3,7 @@ import "./header.css"
 
 export default function Header() {
   return (
-    <div class="header">
+      <div class="header">
         <div class="nav-item">
           <a href="/#about">About</a>
         </div>
@@ -16,6 +16,6 @@ export default function Header() {
         <div class="nav-item">
           <a href="/#contact">Contact</a>
         </div>
-    </div>
+      </div>
   )
 }
