@@ -3,7 +3,11 @@
   color: purple;
   background-color: #0a192f;
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  
 }
+
 
 .header > div {
   background-color: #0a192f;
@@ -15,3 +19,8 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.header :hover {
+  background-color: rgb(255, 255, 0);
+}
+
