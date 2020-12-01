@@ -5,13 +5,10 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  
+  box-shadow: 1px 1px 1px 1px rgb(128, 128, 128);
 }
 
-
 .header > div {
-  background-color: #0a192f;
-  float: right;
   padding: 1rem;
 }
 
@@ -19,8 +16,12 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
+#nav-badge {
+  position:absolute;
+  top:0;
+  left:0;
+  color: rgb(25, 187, 3);
+}
 .header :hover {
   background-color: rgb(255, 255, 0);
 }
-
