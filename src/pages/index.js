@@ -1,8 +1,8 @@
 import React from "react";
 
 import './global.scss';
-import Header from '../components/header';
-import Intro from '../components/intro';
+import Header from '../components/header/header';
+import Intro from '../components/intro/intro';
 
 
 export default function Home() {

@@ -1,7 +1,6 @@
 .header {
   z-index: 5;
   font-size: 3rem;
-  color: purple;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -9,18 +8,18 @@
   position: fixed;
 }
 
-.nav-item :hover {
-  background-color: #435555;
-  transition: background-color 0.75s;
-}
-
-.nav-item {
-  padding: 1rem;
-}
-
 .nav-container {
   display: flex;
   flex-direction: row;
+
+  .nav-item {
+    padding: 1rem;
+  }
+
+  :hover {
+    background-color: #435555;
+    transition: background-color 0.75s;
+  }
 }
 
 a {
@@ -31,4 +30,9 @@ a {
 #nav-badge {
   padding: 1rem;
   color: rgb(25, 187, 3);
+
+  :hover {
+    background-color: #435555;
+    transition: background-color 0.75s;
+  }
 }
