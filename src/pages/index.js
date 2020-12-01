@@ -3,6 +3,7 @@ import React from "react";
 import './global.scss';
 import Header from '../components/header/header';
 import Intro from '../components/intro/intro';
+import Footer from '../components/footer/footer';
 
 
 export default function Home() {
@@ -25,6 +26,9 @@ export default function Home() {
         <Intro />
 
       </body>
+      <footer>
+        <Footer />
+      </footer>
     </html>
   )
 };
