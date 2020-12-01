@@ -1,0 +1,19 @@
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 3rem;
+}
+
+.about-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.body-img {
+}
