@@ -22,6 +22,7 @@ export default function Home() {
       <body>
         <Header />
         <Intro />
+        <Intro />
 
       </body>
     </html>

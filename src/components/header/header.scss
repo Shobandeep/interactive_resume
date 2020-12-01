@@ -1,10 +1,12 @@
 .header {
+  z-index: 5;
   font-size: 3rem;
   color: purple;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  box-shadow: 1px 1px 1px 1px rgb(128, 128, 128);
+  border-bottom: 2px solid rgb(128, 128, 128);
+  position: fixed;
 }
 
 .nav-item :hover {
