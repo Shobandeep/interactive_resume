@@ -21,7 +21,7 @@ export default function Home() {
             sagittis libero. Vestibulum vitae eros et turpis pharetra semper eget ac neque. 
           </div>
 
-          <img class="body-img" src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e.jpg" />
+          <img class="body-img" src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e.jpg"  alt="an image of me!" />
         </div>
         
     </div>
